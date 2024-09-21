@@ -13,10 +13,17 @@ const Incrementcountertwo=()=>{
     setCountertwo(Countertwo+1);
 }
 
+// const IsEven = () => {
+//   // Slow down the function to simulate a heavy computation
+//   let i = 0;
+//   while (i < 2000000) i++;
+//   return Counterone % 2 === 0;
+// };
+
 const IsEven=useMemo(()=>{
     //slow down the function
     let i=0
-    while (i < 2000000000) i++
+    while (i < 200000000) i++
     return Counterone % 2 === 0
 },[Counterone]);
 
