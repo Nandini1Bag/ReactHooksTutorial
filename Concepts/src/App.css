@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.Liftingstateup{
+  background-color: #73ce67;
+  padding: 8px;
+  margin: 5px;
+}
 
 @keyframes App-logo-spin {
   from {
