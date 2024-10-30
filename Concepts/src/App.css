@@ -58,6 +58,42 @@
   margin: 0;
   padding: 10px;
 }
+
+
+/* styles.css */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item.selected {
+  background-color: #e0e0e0;
+}
+
+.dropdown-panel {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

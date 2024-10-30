@@ -4,7 +4,8 @@ import withCounter from './Hoc/withCounter';
 import Counter from './Hoc/Counter';
 import Parent from './LiftingStateup/Parent';
 import Modal from './Portals/Modal';
-import CompoundPattern from './Pattern/CompoundPattern/CompoundPattern';
+import CompoundPatternTab from './Pattern/CompoundPattern/CompoundPatternTab';
+import CompoundPatternDropdown from './Pattern/CompoundPattern/CompoundPatternDropdown';
 
 import './App.css';
 
@@ -25,7 +26,8 @@ const App = () => {
         <h2>Modal Content</h2>
         <p>This is an example of a modal using React Portals!</p>
       </Modal>
-      <CompoundPattern/>
+      <CompoundPatternTab/>
+      <CompoundPatternDropdown/>
     </div>
   );
 };
