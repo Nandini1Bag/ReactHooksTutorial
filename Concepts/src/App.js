@@ -4,6 +4,8 @@ import withCounter from './Hoc/withCounter';
 import Counter from './Hoc/Counter';
 import Parent from './LiftingStateup/Parent';
 import Modal from './Portals/Modal';
+import CompoundPattern from './Pattern/CompoundPattern/CompoundPattern';
+
 import './App.css';
 
 const EnhancedCounter = withCounter(Counter);
@@ -23,6 +25,7 @@ const App = () => {
         <h2>Modal Content</h2>
         <p>This is an example of a modal using React Portals!</p>
       </Modal>
+      <CompoundPattern/>
     </div>
   );
 };
